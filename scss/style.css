@@ -99,6 +99,7 @@ header .nav2 a {
 .main3 .flex {
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
 }
 @media (max-width: 576px) {
   .main3 .flex {
@@ -109,7 +110,11 @@ header .nav2 a {
   width: 350px;
   height: 300px;
   margin: 15px;
-  box-shadow: 20px 10px 10px grey;
+  border-radius: 20px;
+  padding-top: 30px;
+  box-shadow: -3px 8px 17px 3px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: -3px 8px 17px 3px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: -3px 8px 17px 3px rgba(0, 0, 0, 0.7);
 }
 .main3 .card img {
   width: 150px;
@@ -118,6 +123,4 @@ header .nav2 a {
 .main3 .card p {
   font-style: italic;
   font-size: smaller;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
